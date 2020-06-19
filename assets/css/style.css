@@ -110,4 +110,9 @@ header {
     color: #ffffff;
     background-color: #943caf;
 }
-
+.contact {
+    background-color: #ead6d6;
+}
+.form {
+    margin-top: -14px;
+}
