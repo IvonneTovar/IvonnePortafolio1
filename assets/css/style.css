@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.imgTamano {
+    width: 140px;
+    margin-left: -15px;
+}
+
+.purpura {
+    background-color: #943caf;
+}
+
+header {
+    background-image: url(../img/FotoHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.linea {
+    width: 50%;
+}
+
+
+.texto1 {
+    font-weight: 100;
+}
+
+.tituloExp {
+    color:  #943caf;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .textoHeader {
+        padding-top: 330px;
+    }
+    .texto1, .texto2 {
+        font-size: 27px;
+        line-height: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .textoHeader {
+        padding-top: 340px;
+    }
+    .texto1, .texto2 {
+        font-size: 32px;
+        line-height: 25px;
+    }
+    .secciones {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .tarjetas {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+    .experiencias {
+        padding-bottom: 30px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+    .textoHeader {
+        padding-top: 360px;
+    }
+    .texto1, .texto2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .secciones {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .tarjetas {
+        margin-left: 80px !important;
+        margin-right: 80px !important;
+    }
+    .experiencias {
+        padding-bottom: 40px;
+    }
+}
+
+.cargo {
+    font-weight: 100;
+    margin-bottom: 1px;
+}
+
+.ano {
+    color: #8d8d8d;
+    font-weight: 800;
+}
+
+.trabajos {
+    background-color: #943caf;
+}
+.card-text {
+    font-weight: 300;
+}
+.card-title {
+    font-weight: 500;
+}
+.vermas {
+    color: #943caf;
+}
+.vermas:hover {
+    color: #ffffff;
+    background-color: #943caf;
+}
+
