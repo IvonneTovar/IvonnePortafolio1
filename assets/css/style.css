@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #444444;
 }
 .imgTamano {
     width: 140px;
@@ -18,7 +19,7 @@ header {
 }
 
 .linea {
-    width: 50%;
+    width: 20%;
 }
 
 .texto1 {
@@ -86,7 +87,7 @@ header {
 }
 
 .ano {
-    color: #8d8d8d;
+    color: #646464;
     font-weight: 800;
 }
 
@@ -120,4 +121,21 @@ header {
 }
 i {
     color: #ead6d6;
+}
+.descripcion {
+    padding-bottom: 80px;
+}
+.disenadora {
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.descrip, .card-text {
+    font-size: 15px;
+}
+.work {
+    background-color: #ead6d6;
+}
+.descrip {
+    line-height: 25px;
 }
