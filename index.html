@@ -32,16 +32,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Sobre mi <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#description">Sobre mi <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Experiencia</a>
+                      <a class="nav-link" href="#experience">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Trabajos</a>
+                      <a class="nav-link" href="#works">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link" href="#">Contacto</a>
+                         <a class="nav-link" href="#contact">Contacto</a>
                     </li>
                   </ul>
                 </div>
@@ -57,7 +57,7 @@
         </div>
     </header>
 
-    <section class="descripcion d-none d-md-block pt-5">
+    <section id="description" class="descripcion d-none d-md-block pt-5">
         <div class="secciones">
             <h4 class="disenadora text-center">Diseñadora gráfica de profesión, con amplia experiencia <br> y pasión por el diseño GUI</h4>
             <hr class="linea pb-4" style="border-color:lightslategray;">
@@ -77,7 +77,7 @@
 
     </section>
 
-    <section class="work container-fluid text-center py-4 px-5">
+    <section id="experience" class="work container-fluid text-center py-4 px-5">
         <div class="secciones">
             <h2 class="tituloExp font-weight-light mt-4">MI EXPERIENCIA</h2>
             <hr class="linea pb-4" style="border-color: rgb(169, 82, 189);">
@@ -103,7 +103,7 @@
         </div>
     </section>
 
-    <section class="trabajos container-fluid py-5">
+    <section id="works" class="trabajos container-fluid py-5">
         <div class="secciones">
             <h2 class="font-weight-light text-center text-white">MIS ÚLTIMOS TRABAJOS</h2>
             <hr class="linea pb-4 mb-4" style="border-color: white;">
@@ -117,7 +117,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Jonron Power</h5>
                           <p class="card-text">Juego/app de baseball para móvil. <br>Cliente: BeisbolPlay</p>
-                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#baseball">Ver más</a>
+                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#jonron">Ver más</a>
                         </div>
                      </div>
                 </div>
@@ -128,7 +128,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Master Soccer</h5>
                           <p class="card-text">Juego de preguntas sobre futbol.<br>Cliente: Press Start Studios</p>
-                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#baseball">Ver más</a>
+                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#master">Ver más</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Intel Orientation</h5>
                           <p class="card-text">E-Learning app para nuevos empleados.<br>Cliente: Intel</p>
-                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#baseball">Ver más</a>
+                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#intel">Ver más</a>
                         </div>
                     </div>  
                 </div>
@@ -149,7 +149,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Warrior Children</h5>
                           <p class="card-text">Proyecto humanitario para ayudar a los niños con cancer. <br>Cliente: Pepper Group</p>
-                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#baseball">Ver más</a>
+                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#warrior">Ver más</a>
                         </div>
                     </div>  
                 </div>  
@@ -159,7 +159,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Drive me Bananas</h5>
                           <p class="card-text">Juego Running para dispositivos móviles.<br>Cliente: Press Start Studios</p>
-                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#baseball">Ver más</a>
+                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#bananas">Ver más</a>
                         </div>
                     </div>  
                 </div>  
@@ -169,7 +169,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Educhef</h5>
                           <p class="card-text">E-Learning game para dispositivos móviles.<br>Cliente: Press Start Studios</p>
-                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#baseball">Ver más</a>
+                          <a href="#" class="btn vermas my-2" style="border-color: rgb(169, 82, 189);" data-toggle="modal" data-target="#educhef">Ver más</a>
                         </div>
                     </div>  
                 </div>    
@@ -177,7 +177,119 @@
         </div>
     </section>
 
-    <section class="contact">
+    <!-- Modal -->
+    <div class="modal fade" id="jonron" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Jonron Power</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/JonronBig.jpg" class="img-fluid" alt="Jonron">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="master" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Master Soccer</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/MasterBig.jpg" class="img-fluid" alt="master">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="intel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Intel New Employee Orientation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/IntelBig.jpg" class="img-fluid" alt="master">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="warrior" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Warrior Children</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/WCBig.jpg" class="img-fluid" alt="master">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="bananas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Drive me Bananas</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/BananasBig.jpg" class="img-fluid" alt="master">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="educhef" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Educhef</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/EduBig.jpg" class="img-fluid" alt="master">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!------------->
+
+    <section id="contact"class="contacto">
         <div class="secciones text-center pt-4">
             <h2 class="tituloExp font-weight-light mt-4">CONTÁCTO</h2>
             <hr class="linea" style="border-color: rgb(169, 82, 189);">
@@ -188,15 +300,15 @@
         </div>
     </section>
 
-    <footer class="fondofooter container-fluid py-5">
+    <footer class="fondofooter container-fluid pt-5">
         <div class="text-center">
             <img src="assets/img/Logo1.png" alt="logo-footer" class="size pb-4">
         </div>
         <div class="rrss text-center">
-            <i class="fab fa-github-square fa-3x mx-1"></i>
-            <i class="fab fa-linkedin fa-3x mx-1"></i>
-            <i class="fab fa-instagram-square fa-3x mx-1"></i>
-            <i class="fab fa-behance-square fa-3x mx-1"></i>
+            <i class="fab fa-github-square fa-3x mx-1" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="GitHub"></i>
+            <i class="fab fa-linkedin fa-3x mx-1"data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Linkedin"></i>
+            <i class="fab fa-instagram-square fa-3x mx-1" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Instagram"></i>
+            <i class="fab fa-behance-square fa-3x mx-1" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Behance"></i>
         </div>
     </footer>
     

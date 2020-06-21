@@ -107,7 +107,7 @@ header {
     color: #ffffff;
     background-color: #943caf;
 }
-.contact {
+.contacto {
     background-color: #ead6d6;
 }
 .form {
@@ -115,6 +115,7 @@ header {
 }
 .fondofooter {
     background-color: #37459c;
+    padding-bottom: 60px;
 }
 .size {
     width: 180px;
